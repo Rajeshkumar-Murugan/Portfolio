@@ -1,0 +1,44 @@
+.background{
+background-image: url("https://toppng.com/uploads/preview/texture-surface-dark-blue-11570456514lgg3xugs36.jpg");
+height: 100%;
+padding: 3rem;
+background-size:cover;
+}
+
+
+#contactForm, #contactDetails, .contactTitle{
+    background-color: whitesmoke;
+    padding:0px
+}
+
+#contactForm,#contactDetails{
+    border-radius: 10px;
+}
+
+.footerdata {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+#contactDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: large;
+    color: #182153;   
+}
+
+.contactinform{
+    text-align: left;
+}
+
+.profile_img{
+    width: 80%;    
+    height: 100%;
+}
+
+
