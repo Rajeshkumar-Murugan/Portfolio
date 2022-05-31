@@ -1,5 +1,4 @@
 import './App.css';
-
 import Header from './Header';
 import Profile from './Profile';
 import Workexperience from './Workexperience';
@@ -7,6 +6,7 @@ import Education from './Education';
 import Skills from './Skills';
 import Projects from './Projects';
 import Achievements from './Achievements';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

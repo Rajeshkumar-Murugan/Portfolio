@@ -1,5 +1,8 @@
 import React from 'react'
 import './Profile.css';
+import MyPDF from './Rajesh_kumar_Resume.pdf';
+
+
 function Profile() {
   return (
       <>
@@ -9,10 +12,10 @@ function Profile() {
         <div className='container' > 
         <div className='row' id="contactUs"> 
               <div className='col-12 col-md-6 in-left' id='contactForm'>        
-              <img className='profile_img' src='https://static.wixstatic.com/media/46a30b_a8b5006753a44e24afa097be62d8824b~mv2.jpg/v1/fill/w_484,h_484,al_c,lg_1,q_80,enc_auto/46a30b_a8b5006753a44e24afa097be62d8824b~mv2.jpg'></img>          
+              <img className='img-fluid' src='https://static.wixstatic.com/media/46a30b_a8b5006753a44e24afa097be62d8824b~mv2.jpg/v1/fill/w_484,h_484,al_c,lg_1,q_80,enc_auto/46a30b_a8b5006753a44e24afa097be62d8824b~mv2.jpg'></img>          
               </div>
               
-            <div className='col-12 col-md-6 in-right' id="contactDetails">
+            <div className='col-12 col-md-6 in-right' id="contactDetails" style={{paddingTop: '30px'}}>
               <div className='contactinform'>
 
                <h4>Rajesh Kumar . M
@@ -49,9 +52,13 @@ function Profile() {
             <br/>
             July 30th, 1996
             </p>
-                
-                    
-              </div>
+            <b>Resume:</b>
+            <br/>
+            <a href={MyPDF} download="Rajesh_kumar_Resume.pdf"> Download Here </a>
+            <br/>
+            <br/>
+            <br/>
+                      </div>
             <div > 
 
            
