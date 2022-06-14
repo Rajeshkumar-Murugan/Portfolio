@@ -8,34 +8,34 @@ function Skills() {
         <div className='container '>
             <div className='row alignments'>
             <div className='col'>
-            <div className='transparentbg in-left'>
-            Fronend (HTML, CSS, JavaScript)
+            <div className='transparentbg in-left' style={{animationDuration:"1s"}}>
+            Fronend (HTML, CSS, JavaScript, React)
             </div>
             <br/>
 
-            <div className='transparentbg in-left'>
+            <div className='transparentbg in-left' style={{animationDuration:"2s"}}>
             Backend (Node Js, Express, MangoDB)
             </div>
             <br/>
 
-            <div className='transparentbg in-left'>
-            Advanced (React, Bootstrap, formik, axios)
+            <div className='transparentbg in-left' style={{animationDuration:"3s"}}>
+            Libraries (Bootstrap, formik, axios)
             </div>
             <br/>
 
             </div>
             <div className='col'>
-            <div className='transparentbg in-left'>
+            <div className='transparentbg in-right' style={{animationDuration:"2.5s"}}>
             
             Software Testing-Manual and Selenium Automation Tool
             </div>
             <br/>
-            <div className='transparentbg in-left'>
+            <div className='transparentbg in-right'>
             Computer Hardware - Proficient
             </div>
             <br/>
-            <div className='transparentbg in-left'>
-            Tae Kwon Do player - senior level
+            <div className='transparentbg in-right'>
+            Tae Kwon Do player - Senior level
             </div>
             <br/>
             </div>
