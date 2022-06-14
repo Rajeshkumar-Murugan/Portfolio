@@ -15,7 +15,6 @@ function Header() {
     <li className="nav-item"><a className="nav-link text-primary" href="#Projects">PROJECTS</a></li>
     <li className="nav-item"><a className="nav-link text-primary" href="#Workexperience"> EXPERIENCE</a></li>
     <li className="nav-item"><a className="nav-link text-primary" href="#AdditionalCourse">COURSE</a></li>
-    {/* <li className="nav-item"><a className="nav-link text-white" href="#Achievements">Social Activities</a></li> */}
     <li className="nav-item"><a className="nav-link text-primary" href="#Footer">CONTACT</a></li>
     </ul>
 </nav>
