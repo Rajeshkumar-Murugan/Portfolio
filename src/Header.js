@@ -4,17 +4,19 @@ function Header() {
   return (
     <div className='sticky-top ' >
         
-        <nav id="navbar-example2" class="navbar-nav-scroll  navbar-light bg-light px-3">
-  <ul class="nav nav-pills">
+<nav id="navbar-example2" class="navbar-nav-scroll  navbar-light bg-dark p-3">
+  <ul class="nav">
     <li class="nav-item">
-      <a class="nav-link" href="#About">About</a>
+      <a class="nav-link text-white" href="#About">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#Skills">Skills</a>
+      <a class="nav-link text-white" href="#Skills ">Skills</a>
     </li>
-    <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
-    <li class="nav-item"><a class="nav-link" href="#Workexperience">Professional Experience</a></li>
-    <li class="nav-item"><a class="nav-link" href="#Achievements">Achievements</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="#Projects">Projects</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="#Workexperience">Professional Experience</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="#Achievements">Achievements</a></li>
+    <li class="nav-item"><a class="nav-link text-white" href="#Achievements">Course Completed</a></li>
+
     </ul>
 </nav>
 

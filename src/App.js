@@ -7,6 +7,7 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Achievements from './Achievements';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AdditionalCourse from './AdditionalCourse';
 
 function App() {
   return (
@@ -34,16 +35,15 @@ function App() {
   <Workexperience/>
   </div>
   
-  <div id="Achievements">
+  {/* <div id="Achievements">
     <Achievements/>
+  </div> */}
+  <div id="AdditionalCourse">
+  <AdditionalCourse/>
   </div>
-  
+ 
 </div>
-      
-      
-      
-      
-      
+    
     </div>
   );
 }

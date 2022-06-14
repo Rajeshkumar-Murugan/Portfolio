@@ -4,11 +4,14 @@ import {Carousel} from 'react-bootstrap'
 function Achievements() {
   return (
     <>
-      <div className="mainheading ">
+      <div className="mainheading d-flex align-items-center">
         <b>Achievements</b>
+       
       </div>
-   <div className="container">
-   <Carousel>
+   <div className='container-fluid highlights in-left' id='workexp'>
+ 
+   
+  <Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -44,7 +47,7 @@ function Achievements() {
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>
+</Carousel> 
      </div>   
       
     </>

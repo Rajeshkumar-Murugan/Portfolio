@@ -5,14 +5,19 @@ padding: 3rem;
 background-size:cover;
 }
 
+#contactForm{
+    background-color:  #182153;  
+}
 
-#contactForm, #contactDetails, .contactTitle{
+ #contactDetails, .contactTitle{
     background-color: whitesmoke;
     
 }
 
 #contactForm,#contactDetails{
-    border-radius: 10px;
+   
+    height: 500px;
+    width: 500px;
 }
 
 .footerdata {
@@ -36,9 +41,9 @@ background-size:cover;
     text-align: left;
 }
 
-.profile_img{
-    width: 80%;    
-    height: 100%;
-}
 
+.img-fluid{
+    height: 100%;
+    width: 100%;
+}
 
