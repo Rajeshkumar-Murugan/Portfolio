@@ -33,7 +33,7 @@ function Profile() {
                 <p>
                   <b>Email:</b>
                   <br />
-                  rajeshkumarmurugan1@gmail.com
+                  <a href="mailto:rajeshkumarmurugan1@gmail.com" target="_blank">rajeshkumarmurugan1@gmail.com</a>
                 </p>
                 <p>
                   <b>Address:</b>
@@ -54,8 +54,7 @@ function Profile() {
                 <b>Resume:</b>
                 <br />
                 <a href={MyPDF} download="Rajesh_kumar_Resume.pdf">
-                  
-                  Download Here
+                  Click Here Download
                 </a>
                 
                 

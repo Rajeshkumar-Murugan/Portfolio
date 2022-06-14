@@ -148,7 +148,7 @@ function Footer() {
               <p>Korattur North,</p>
               <p>Tamilnadu, India</p>
               <p>Chennai-600 0762</p>
-              <p>Email: rajeshkumarmurugan1@gmail.com</p>
+              <p>Email:<a href="mailto:rajeshkumarmurugan1@gmail.com" target="_blank"> rajeshkumarmurugan1@gmail.com</a></p>
             </div>
             <div>
               <a href="https://www.facebook.com/RajeshRhaegal/" target="_blank">

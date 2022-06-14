@@ -3,20 +3,63 @@ import React from 'react'
 function AdditionalCourse() {
   return (
     <div>
+
+< div className='bgtwo'>    
+        
         <div className="mainheading d-flex flex-column align-items-center">
         <b>Course Completed</b>
         <p> In between 2016 – 2022</p>
       </div>
-   <div className='container-fluid highlights in-left' id='workexp'>
- 
-    <ul>
-    <li>Computer Hardware in Cybersoft solution</li>
-    <li>Software Testing - Manual & Automation tool (selenium) in St. Peter's University</li>
-    <li>Software Testing - Manual in QSpiders Vadapalani</li>
-    <li>Full Stack Development in GUVI Geek</li>
-    </ul>
+       
+        <div className='container '>
+            <div className='row alignments'>
+            <div className='col'>
+           <h4 className='text-white'>Course Title</h4> 
+            <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"2s"}}>
+              <p>Computer Hardware</p>
+              <p>Manual & Automation Testing</p>
+              <p>Software Testing - Manual</p>
+              <p>Full Stack Development</p>     
+            </div>
+            </div>
+            
+           
+            <div className='col'>
+           <h4 className='text-white'>Institution</h4> 
+            <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"3s"}}>
+                <p>Cybersoft solution</p>
+                <p>St. Peter's University</p>
+                <p>QSpiders (Vadapalani)</p>
+                <p>GUVI Geek</p>        
+            </div>
+            </div>
 
-     </div> 
+            <div className='col'>
+           <h4 className='text-white'>Year</h4> 
+            <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"4s"}}>
+                <p>2016</p>
+                <p>2017</p>
+                <p>2018</p>
+                <p>2022</p>
+                        
+            </div>
+            </div>
+
+            <div className='col'>
+           <h4 className='text-white'>Status/Percentage</h4> 
+            <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"5s"}}>
+                <p>82.2%</p>
+                <p>Completed</p>
+                <p>Completed</p>
+                <p>Completed</p>
+                        
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>
+       
+   
 
 
     </div>
