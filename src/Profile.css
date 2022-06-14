@@ -5,6 +5,13 @@ padding: 3rem;
 background-size:cover;
 }
 
+#Profile{
+    background-image: url("./Photos/CoverImage.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+
 #contactForm{
     background-color:  #182153;  
 }
@@ -14,7 +21,7 @@ background-size:cover;
     
 }
 
-#contactForm,#contactDetails{
+#Profile, #contactForm,#contactDetails{
    
     height: 500px;
     width: 500px;

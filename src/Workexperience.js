@@ -2,17 +2,13 @@ import React from 'react'
 
 function Workexperience() {
   return (<>
-
     <div className='mainheading d-flex flex-column align-items-center'>
         <b>Professional Experience</b>
-        <p >SOFTWARE TESTING ENGINEER (2018 - TILL PRESENT)</p>
         </div>
-        
     <div className='container-fluid highlights in-left' id='workexp'>
- 
+    <p><b>SOFTWARE TESTING ENGINEER </b> (2018 - TILL PRESENT)</p>
 <ul>
-<li>Understanding the Requirements and Functional</li>
-<li>Specifications of the application.</li>
+<li>Understanding the Requirements and Functional Specifications of the application.</li>
 <li>Prepared and Executed Test Cases</li>
 <li>Defect Reporting and Tracking using Git Hub.</li>
 <li>Involved in participation of regular weekly project status meetings to discuss the risks </li> 

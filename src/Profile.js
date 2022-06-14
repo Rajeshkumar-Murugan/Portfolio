@@ -1,25 +1,25 @@
 import React from "react";
 import "./Profile.css";
 import MyPDF from "./Rajesh_kumar_Resume.pdf";
-import ProfilePic from './Photos/CoverImage.jpg';
+import ProfilePic from "./Photos/CoverImage.jpg";
 function Profile() {
   return (
     <>
-     
       <div className="bg_one">
         <div className="container">
-          <div className="row d-flex flex-row  justify-content-md-center" id="contactUs">
-            <div className="col-12 col-md-6 in-left" id="contactForm" style={{animationDuration:"2s"}}>
-              <img
-                className="img-fluid"
-                src={ProfilePic}
-                style={{height:"100%", width:"100%"}}
-              />
-            </div>
+          <div
+            className="row d-flex flex-row  justify-content-md-center"
+            id="contactUs"
+          >
+            <div
+              className="col-12 col-md-6 in-left"
+              id="Profile"
+              style={{ animationDuration: "2s" }}
+            ></div>
             <div
               className="col-12 col-md-6 in-right"
               id="contactDetails"
-              style={{ paddingTop: "30px" }}
+              
             >
               <div className="contactinform">
                 <h4>Rajesh Kumar . M</h4>
@@ -33,18 +33,19 @@ function Profile() {
                 <p>
                   <b>Email:</b>
                   <br />
-                  <a href="mailto:rajeshkumarmurugan1@gmail.com" target="_blank">rajeshkumarmurugan1@gmail.com</a>
+                  <a
+                    href="mailto:rajeshkumarmurugan1@gmail.com"
+                    target="_blank"
+                  >
+                    rajeshkumarmurugan1@gmail.com
+                  </a>
                 </p>
                 <p>
                   <b>Address:</b>
                   <br />
-                  No:111/75 Palla Street,
-                  
-                  Korattur North,
+                  No:111/75 Palla Street, Korattur North,
                   <br />
-                  Tamilnadu,
-                  
-                  Chennai-600 076
+                  Tamilnadu, Chennai-600 076
                 </p>
                 <p>
                   <b>Date of Birth:</b>
@@ -56,8 +57,6 @@ function Profile() {
                 <a href={MyPDF} download="Rajesh_kumar_Resume.pdf">
                   Click Here Download
                 </a>
-                
-                
               </div>
               <div></div>
             </div>

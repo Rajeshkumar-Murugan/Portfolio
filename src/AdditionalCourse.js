@@ -10,10 +10,10 @@ function AdditionalCourse() {
         <b>Course Completed</b>
         <p> In between 2016 – 2022</p>
       </div>
-       
+       <br/>
         <div className='container '>
-            <div className='row alignments'>
-            <div className='col'>
+            <div className='row'>
+            <div className='col-12 col-md-3'>
            <h4 className='text-white'>Course Title</h4> 
             <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"2s"}}>
               <p>Computer Hardware</p>
@@ -24,7 +24,7 @@ function AdditionalCourse() {
             </div>
             
            
-            <div className='col'>
+            <div className='col-sm-12 col-md-3'>
            <h4 className='text-white'>Institution</h4> 
             <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"3s"}}>
                 <p>Cybersoft solution</p>
@@ -34,7 +34,7 @@ function AdditionalCourse() {
             </div>
             </div>
 
-            <div className='col'>
+            <div className='col-sm-12 col-md-3'>
            <h4 className='text-white'>Year</h4> 
             <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"4s"}}>
                 <p>2016</p>
@@ -45,7 +45,7 @@ function AdditionalCourse() {
             </div>
             </div>
 
-            <div className='col'>
+            <div className='col-sm-12 col-md-3'>
            <h4 className='text-white'>Status/Percentage</h4> 
             <div className='transparentbg in-left text-left mx-auto'  style={{animationDuration:"5s"}}>
                 <p>82.2%</p>
@@ -56,6 +56,8 @@ function AdditionalCourse() {
             </div>
             </div>
             </div>
+            <br/>
+            <br/>
         </div>
         </div>
        

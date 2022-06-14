@@ -11,7 +11,6 @@ function Footer() {
       name: "",
       mobile: "",
       email: "",
-      address: "",
       message: "",
     },
     validationSchema: yup.object({
@@ -27,6 +26,7 @@ function Footer() {
       message: yup.string().required("Message is required"),
     }),
     onSubmit: (values) => {
+      console.log(values)
       sendmail(values, null, 2);
     },
   });
@@ -37,7 +37,7 @@ function Footer() {
         "https://modelprintingserver.herokuapp.com/users/Message",
         val
       );
-      toast.success("Mail sent");
+      toast.success("Mail sent Successfully");
     } catch (error) {
       toast.error("Mail not sent");
       console.log(error);
@@ -45,12 +45,13 @@ function Footer() {
   };
 
   return (
-    <div className=" footer">
+    <div className=" footer highlights">
+      
       <div className="mainheading mx-auto">
         <b>Contact</b>
       </div>
-
-      <div className="container-fluid highlights ">
+      <br/>
+      <div className="container  ">
         <div
           className="row d-flex flex-row  justify-content-md-center "
           id="contactUs"
@@ -61,7 +62,7 @@ function Footer() {
             style={{ animationDuration: "3s" }}
           >
             <form onSubmit={formik.handleSubmit}>
-              <label for="name">Name</label>
+              <label htmlFor="name">Name</label>
               <input
                 id="name"
                 name="name"
@@ -71,11 +72,9 @@ function Footer() {
                 onChange={formik.handleChange}
                 value={formik.values.name}
               />
-              {formik.touched.name && formik.errors.name ? (
-                <div style={{ color: "red" }}>{formik.errors.name}</div>
-              ) : null}
+              
 
-              <label for="name">Mobile</label>
+              <label htmlFor="name">Mobile</label>
               <input
                 id="mobile"
                 name="mobile"
@@ -85,11 +84,9 @@ function Footer() {
                 onChange={formik.handleChange}
                 value={formik.values.mobile}
               />
-              {formik.touched.mobile && formik.errors.mobile ? (
-                <div style={{ color: "red" }}>{formik.errors.mobile}</div>
-              ) : null}
+              
 
-              <label for="name">Email</label>
+              <label htmlFor="name">Email</label>
               <input
                 id="email"
                 name="email"
@@ -99,22 +96,9 @@ function Footer() {
                 onChange={formik.handleChange}
                 value={formik.values.email}
               />
-              {formik.touched.email && formik.errors.email ? (
-                <div style={{ color: "red" }}>{formik.errors.email}</div>
-              ) : null}
+            
 
-              <label for="address">Address</label>
-              <textarea
-                id="address"
-                name="address"
-                type="text"
-                className="form-control"
-                placeholder="Enter address"
-                onChange={formik.handleChange}
-                value={formik.values.address}
-              />
-
-              <label for="message">Message</label>
+              <label htmlFor="message">Message</label>
               <textarea
                 id="message"
                 name="message"
@@ -123,12 +107,21 @@ function Footer() {
                 placeholder="Enter message"
                 onChange={formik.handleChange}
                 value={formik.values.message}
+                style={{height:"200px"}}
               />
-              {formik.touched.message && formik.errors.message ? (
+             
+             {formik.touched.name && formik.errors.name ? (
+                <div style={{ color: "red" }}>{formik.errors.name}</div>
+              ) : formik.touched.mobile && formik.errors.mobile ? (
+                <div style={{ color: "red" }}>{formik.errors.mobile}</div>
+              ) :formik.touched.email && formik.errors.email ? (
+                <div style={{ color: "red" }}>{formik.errors.email}</div>
+              ) :    formik.touched.message && formik.errors.message ? (
                 <div style={{ color: "red" }}>{formik.errors.message}</div>
               ) : null}
 
               <br />
+            
 
               <button type="submit" className="btn btn-primary">
                 Submit
@@ -179,7 +172,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/rajesh-kumar-murugan-710841208"
                 target="_blank"
               >
-                <i class="fab fa-linkedin fa-2xl"></i>
+                <i className="fab fa-linkedin fa-2xl"></i>
               </a>
             </div>
           </div>

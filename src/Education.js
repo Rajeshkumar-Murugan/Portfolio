@@ -15,7 +15,7 @@ function Education() {
                         </h4>
                     
                 </div>
-  <div class="vr"></div>
+  <div className="vr"></div>
                 <div className='col in-right' style={{animationDuration:"1s"}}>
                 <p> Course : SSLC<br/>
                     Institution : K B J G MAT HSS<br/>
@@ -32,7 +32,7 @@ function Education() {
                     </h4>
                 
             </div>
-            <div class="vr"></div>
+            <div className="vr"></div>
             <div className='col in-right' style={{animationDuration:"2s"}}>
            <p> Course : HSC<br/>
 
@@ -51,7 +51,7 @@ function Education() {
                         </h4>
                     
                 </div>
-  <div class="vr"></div>
+  <div className="vr"></div>
                 <div className='col in-right' style={{animationDuration:"3s"}}>
             <p>
             Course : B.E.CSE<br/>

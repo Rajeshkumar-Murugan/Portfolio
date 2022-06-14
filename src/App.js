@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       
       <Header/>
-  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" className="scrollspy-example" tabIndex="0">
   <div id="About">
   
   <Profile/>

@@ -8,8 +8,8 @@ function Projects() {
       </div>
       {/* <div className='d-md-inline-flex justify-content-around highlights' > */}
 
-      <div class="card-group">
-        <div class="card">
+      <div className="card-group">
+        <div className="card">
           <a
             href="https://priceless-ritchie-d27cd9.netlify.app/"
             target="_blank"
@@ -40,7 +40,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div class="card">
+        <div className="card">
           <a
             href="https://nostalgic-wozniak-8dd50b.netlify.app/"
             target="_blank"
@@ -72,7 +72,7 @@ function Projects() {
           </div>
         </div>
 
-        <div class="card">
+        <div className="card">
           <a
             href="https://thriving-brioche-e4bb68.netlify.app/"
             target="_blank"
@@ -104,11 +104,11 @@ function Projects() {
         </div>
       </div>
 
-      <div class="card-group">
+      <div className="card-group">
         <div className="container-fluid mainheading">
           <b>Frontend Projects</b>
         </div>
-        <div class="card">
+        <div className="card">
           <a
             href="https://dazzling-wozniak-795066.netlify.app/"
             target="_blank"
@@ -133,7 +133,7 @@ function Projects() {
           </div>
         </div>
 
-        <div class="card">
+        <div className="card">
           <a
             href="https://xenodochial-clarke-aae51c.netlify.app/"
             target="_blank"
@@ -158,7 +158,7 @@ function Projects() {
           </div>
         </div>
 
-        <div class="card">
+        <div className="card">
           <a
             href="https://vigilant-varahamihira-364ca2.netlify.app"
             target="_blank"
