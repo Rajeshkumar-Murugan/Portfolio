@@ -1,0 +1,41 @@
+.footerdata {
+    background-color: black;
+    color: white;
+}
+
+.fa-facebook-square{
+    color: #2f2faf;
+}
+.fa-twitter{
+    color:#22c2d4
+}
+.fa-whatsapp-square{
+    
+    color: #31db31;
+}
+.fa-youtube{
+    color: #fb0000;
+}
+.fa-instagram-square{
+    color: #fb0732;
+}
+
+.fa-facebook-square, .fa-youtube, .fa-twitter, .fa-whatsapp-square,.fa-instagram-square{
+    padding: 10px; 
+}
+#contactDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.contactinform{
+    text-align: left;
+}
+
+#contactUs{
+    padding-bottom: 20px;
+}

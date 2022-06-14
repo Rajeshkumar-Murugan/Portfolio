@@ -5,9 +5,15 @@ import Workexperience from './Workexperience';
 import Education from './Education';
 import Skills from './Skills';
 import Projects from './Projects';
-import Achievements from './Achievements';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AdditionalCourse from './AdditionalCourse';
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Footer';
+import Workshops from './Workshops';
+
+// import Achievements from './Achievements';
 
 function App() {
   return (
@@ -34,13 +40,15 @@ function App() {
   <div id="Workexperience">
   <Workexperience/>
   </div>
-  
-  {/* <div id="Achievements">
-    <Achievements/>
-  </div> */}
+ 
   <div id="AdditionalCourse">
   <AdditionalCourse/>
   </div>
+  <Workshops/>
+  <div id="Footer">
+   <Footer/> 
+   </div>
+  <ToastContainer />
  
 </div>
     

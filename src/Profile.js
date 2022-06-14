@@ -1,7 +1,7 @@
 import React from "react";
 import "./Profile.css";
 import MyPDF from "./Rajesh_kumar_Resume.pdf";
-
+import ProfilePic from './Photos/CoverImage.jpg';
 function Profile() {
   return (
     <>
@@ -9,10 +9,10 @@ function Profile() {
       <div className="background">
         <div className="container">
           <div className="row d-flex flex-row  justify-content-md-center" id="contactUs">
-            <div className="col-12 col-md-6 in-left" id="contactForm">
+            <div className="col-12 col-md-6 in-left" id="contactForm" style={{animationDuration:"2s"}}>
               <img
                 className="img-fluid"
-                src="https://static.wixstatic.com/media/46a30b_a8b5006753a44e24afa097be62d8824b~mv2.jpg/v1/fill/w_484,h_484,al_c,lg_1,q_80,enc_auto/46a30b_a8b5006753a44e24afa097be62d8824b~mv2.jpg"
+                src={ProfilePic}
                 style={{height:"100%", width:"100%"}}
               />
             </div>
@@ -44,7 +44,7 @@ function Profile() {
                   <br />
                   Tamilnadu,
                   
-                  Chennai-600 049
+                  Chennai-600 076
                 </p>
                 <p>
                   <b>Date of Birth:</b>
