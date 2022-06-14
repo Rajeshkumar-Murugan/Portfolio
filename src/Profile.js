@@ -6,7 +6,7 @@ function Profile() {
   return (
     <>
      
-      <div className="background">
+      <div className="bg_one">
         <div className="container">
           <div className="row d-flex flex-row  justify-content-md-center" id="contactUs">
             <div className="col-12 col-md-6 in-left" id="contactForm" style={{animationDuration:"2s"}}>

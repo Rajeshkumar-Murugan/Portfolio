@@ -2,7 +2,7 @@ import React from 'react'
 import './Skills.css'
 
 function Skills() {
-  return (< div className='bgtwo'>    
+  return (< div className='bg_two'>    
         <div className='mainheading '>
         <b>Skills</b></div>
         <div className='container '>

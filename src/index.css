@@ -1,31 +1,31 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.highlights{
-    padding-top: 50px;   
-    background-color: #b0b0b0;
-    
-    color: #182153;
+.highlights {
+  padding-top: 50px;
+  background-color: #b0b0b0;
+
+  color: #182153;
 }
-#workexp{
+#workexp {
   display: flex;
-    text-align: left;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
+  text-align: left;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.mainheading{
+.mainheading {
   text-align: center;
   font-size: xx-large;
   margin: 0px;
@@ -36,9 +36,7 @@ code {
 }
 /** fadeInLeft **/
 
-
-
-.in-right{
+.in-right {
   animation: fadeInRight 2s ease-in-out;
 }
 @keyframes fadeInRight {
@@ -51,15 +49,14 @@ code {
   }
 }
 
-.in-left{
-   
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: fadeInLeft;
+.in-left {
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: fadeInLeft;
 }
 @keyframes fadeInLeft {
   from {
@@ -71,35 +68,56 @@ code {
   }
 }
 
-p{
+p {
   text-align: left;
   font-size: medium;
 }
 
-.transparentbg{
+.transparentbg {
   background-color: hsla(218, 43%, 82%, 0.2);
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 20px;
   font-size: larger;
   color: white;
 }
 
-.circlecard{
+.circlecard {
   border-radius: 250px;
-  transition: transform .2s; /* Animation */
+  transition: transform 0.2s; /* Animation */
   width: 8rem;
   height: 8rem;
   margin: 0 auto;
 }
-.circlecard:hover{
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-
+.circlecard:hover {
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.card{
+.card {
   padding: 25px;
 }
 
 a {
-  text-decoration:none !important;
+  text-decoration: none !important;
+}
+
+.bg_one {
+  background-image: url("https://thumbs.gfycat.com/EmbellishedTintedHawk-size_restricted.gif");
+  padding: 3rem;
+  background-size: cover;
+}
+
+.bg_two {
+  background-image: url("https://media0.giphy.com/media/26wcZlCq5O7pVD1sY/giphy.gif");
+
+  background-size: fit;
+}
+.bg_three {
+  background-image: url("https://i.pinimg.com/originals/07/e8/fa/07e8faaa355eed6a6c5ee718b9d0c83c.gif");
+  background-size: fit;
+}
+.bg_four {
+  background-image: url("https://i.gifer.com/CTb.gif");
+  background-size: cover;
 }

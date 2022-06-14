@@ -4,7 +4,7 @@ function AdditionalCourse() {
   return (
     <div>
 
-< div className='bgtwo'>    
+< div className='bg_three'>    
         
         <div className="mainheading d-flex flex-column align-items-center">
         <b>Course Completed</b>

@@ -1,8 +1,10 @@
 .bgtwo{
 background-image: url("https://ak.picdn.net/shutterstock/videos/15390931/thumb/1.jpg");
-background-size:cover;
+background-size:fit;
 
 }
+
+
 
 .alignments{
     padding: 5rem;
