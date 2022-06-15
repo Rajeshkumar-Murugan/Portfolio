@@ -48,14 +48,14 @@ function Profile() {
                   Tamilnadu, Chennai-600 076
                 </p>
                 <p>
-                  <b>Date of Birth:</b>
+                  <b>Date of birth:</b>
                   <br />
                   July 30th, 1996
                 </p>
-                <b>Resume:</b>
-                <br />
-                <a href={MyPDF} download="Rajesh_kumar_Resume.pdf">
-                  Click Here Download
+                <b>Resume: </b>
+                
+                <a href="https://drive.google.com/file/d/1iI4A1rlu2I1O0trlw84S7bYF6Vx_2mJC/view?usp=sharing" download="Rajesh_kumar_Resume.pdf" target="_blank">
+                  Click Here
                 </a>
               </div>
               <div></div>

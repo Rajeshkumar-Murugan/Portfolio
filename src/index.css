@@ -121,3 +121,13 @@ a {
   background-image: url("https://i.gifer.com/CTb.gif");
   background-size: cover;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400&display=swap');
+p, h4{
+  font-family: 'Exo 2', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200;300&display=swap');
+b{
+  font-family: 'Encode Sans SC', sans-serif;
+}

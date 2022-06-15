@@ -140,7 +140,7 @@ function Footer() {
               <p>Address: 111/75 Palla Street,</p>
               <p>Korattur North,</p>
               <p>Tamilnadu, India</p>
-              <p>Chennai-600 0762</p>
+              <p>Chennai-600 076</p>
               <p>Email:<a href="mailto:rajeshkumarmurugan1@gmail.com" target="_blank"> rajeshkumarmurugan1@gmail.com</a></p>
             </div>
             <div>
