@@ -107,7 +107,7 @@ function Footer() {
                 placeholder="Enter message"
                 onChange={formik.handleChange}
                 value={formik.values.message}
-                style={{height:"200px"}}
+                style={{height:"150px"}}
               />
              
              {formik.touched.name && formik.errors.name ? (
@@ -119,14 +119,17 @@ function Footer() {
               ) :    formik.touched.message && formik.errors.message ? (
                 <div style={{ color: "red" }}>{formik.errors.message}</div>
               ) : null}
-
-              <br />
-            
-
+<br/>
+           
+<div class="d-grid gap-2 col-6 mx-auto">
               <button type="submit" className="btn btn-primary">
-                Submit
+                Send Mail
               </button>
+              
+              </div>
+              
             </form>
+            <br/>
           </div>
 
           <div
