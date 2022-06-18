@@ -144,35 +144,30 @@ function Footer() {
               <p>Email:<a href="mailto:rajeshkumarmurugan1@gmail.com" target="_blank"> rajeshkumarmurugan1@gmail.com</a></p>
             </div>
             <div>
-              <a href="https://www.facebook.com/RajeshRhaegal/" target="_blank">
-                <i
-                  className="fa-brands fa-facebook-square fa-2xl"
-                  
-                ></i>
-              </a>
-              <a href="https://twitter.com/Rajesh_Randolph" target="_blank">
-                <i className="fa-brands fa-twitter fa-2xl"></i>
-              </a>
               <a
-                href="https://wa.me/919551052326/?text=Hi%20I%20will%20get%20in%20touch%20with%20you%20very%20soon."
+                href="https://wa.me/919551052326/?text=Hi%20there!%20We%20just%20wanted%20to%20let%20you%20know%20we%20received%20your%20message%20and%20will%20be%20in%20touch.."
                 target="_blank"
               >
                 <i
                   className="fa-brands fa-whatsapp-square fa-2xl"
                  
                 ></i>
-              </a>
+              </a> &nbsp;
               <a
-                href="https://www.instagram.com/rajesh_raveen/"
+                href="https://github.com/Rajeshkumar-Murugan"
                 target="_blank"
               >
-                <i className="fa-brands fa-instagram-square fa-2xl"></i>
-              </a>
+                <i class="fab fa-github-square fa-2xl"></i>
+              </a> &nbsp; &nbsp;
               <a
                 href="https://www.linkedin.com/in/rajesh-kumar-murugan-710841208"
                 target="_blank"
               >
                 <i className="fab fa-linkedin fa-2xl"></i>
+              </a> &nbsp;
+
+              <a href="https://twitter.com/Rajesh_Randolph" target="_blank">
+                <i className="fa-brands fa-twitter fa-2xl"></i>
               </a>
             </div>
           </div>
