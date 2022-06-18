@@ -1,4 +1,7 @@
 import React from "react";
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 function Projects() {
   return (
@@ -7,7 +10,8 @@ function Projects() {
         <b>Full Stack Projects</b>
       </div>
       {/* <div className='d-md-inline-flex justify-content-around highlights' > */}
-
+      <div class="accordion" id="accordionExample">
+  
       <div className="card-group">
         <div className="card">
           <a
@@ -18,12 +22,24 @@ function Projects() {
             <img
               className="circlecard"
               src="https://media2.giphy.com/media/KCYDh4F4UPHFfLvdFA/giphy.gif"
-            ></img>{" "}
+            ></img>
             <h4>Ticket booking</h4>
           </a>
 
           <br />
-          <div className="d-flex justify-content-evenly">
+          
+          <div>
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <a class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          More Details
+        </a>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+      <div className="d-flex justify-content-evenly">
+      <b> GITHUB Link:</b>
             <a
               href="https://github.com/Rajeshkumar-Murugan/guvi-hackathon2-frontend"
               target="_blank"
@@ -39,6 +55,13 @@ function Projects() {
               Backend End Source
             </a>
           </div>
+          <br/>
+      <p><b>Admin: </b>admin@admin.com / <b>Password: </b>admin</p>
+  <p><b>client: </b>client@client.com / <b>Password: </b>client</p>
+  <p><b>Temp Email Signup:</b> <a href="https://temp-mail.org/en/" target={"_blank"}>Click here</a></p>
+      </div>
+    </div>
+  </div>
         </div>
         <div className="card">
           <a
@@ -49,27 +72,44 @@ function Projects() {
             <img
               className="circlecard"
               src="https://cdn.dribbble.com/users/102974/screenshots/1976442/3dprinter_1.gif"
-            ></img>{" "}
+            ></img>
             <h4>3D Printing</h4>
           </a>
 
           <br />
-          <div className="d-flex justify-content-evenly">
+          
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <a class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          More Details
+        </a>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+      <div className="d-flex justify-content-evenly">
+     <b> GITHUB Link:</b>
             <a
               href="https://github.com/Rajeshkumar-Murugan/Zen-Assignment-Day-27"
               target="_blank"
-              style={{ textDecoration: "none" }}
+             
             >
               Front End Source
             </a>
             <a
               href="https://github.com/Rajeshkumar-Murugan/modelprinting_server"
               target="_blank"
-              style={{ textDecoration: "none" }}
+              
             >
               Backend End Source
             </a>
           </div>
+          <br/>
+      <p><b>Admin: </b>admin@admin.com / <b>Password: </b>admin</p>
+  <p><b>client: </b>client@client.com / <b>Password: </b>client</p>
+  <p><b>Temp Email Signup:</b> <a href="https://temp-mail.org/en/" target={"_blank"}>Click here</a></p>
+      </div>
+    </div>
         </div>
 
         <div className="card">
@@ -81,29 +121,47 @@ function Projects() {
             <img
               className="circlecard"
               src="https://images.prismic.io/smarttask/d02c7f4a-46b2-48cb-a57d-e3a5d9fdfb83_Project+Management+Analytics.gif?auto=compress,format"
-            ></img>{" "}
+            ></img>
             <h4>Project management tool</h4>
           </a>
           <br />
-          <div className="d-flex justify-content-evenly">
+         
+          <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <a class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          More Details
+        </a>
+      </h2>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        
+      <div className="d-flex justify-content-evenly">
+      <b> GITHUB Link:</b>
             <a
               href="https://github.com/Rajeshkumar-Murugan/Project-Management-Tool-Frontend"
               target="_blank"
-              style={{ textDecoration: "none" }}
+             
             >
               Front End Source
             </a>
             <a
               href="https://github.com/Rajeshkumar-Murugan/Project-Management-Tool-backend"
               target="_blank"
-              style={{ textDecoration: "none" }}
+            
             >
               Backend End Source
             </a>
           </div>
+          <br/>
+      <p><b>Admin: </b>admin@admin.com / <b>Password: </b>admin</p>
+  <p><b>client: </b>client@client.com / <b>Password: </b>client</p>
+  <p><b>Temp Email Signup:</b> <a href="https://temp-mail.org/en/" target={"_blank"}>Click here</a></p>
+      </div>
+    </div>
         </div>
       </div>
-
+</div>
       <div className="card-group">
         <div className="container-fluid mainheading">
           <b>Frontend Projects</b>
