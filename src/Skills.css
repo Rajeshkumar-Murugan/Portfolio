@@ -4,8 +4,17 @@ background-size:fit;
 
 }
 
-
-
 .alignments{
+ 
     padding: 5rem;
 }
+
+.SkillIcons{
+    height: 100px;
+    margin: 10px 0px 20px 0px;
+}
+.SkillIcons:hover {
+    transform: scale(
+      1.5
+    );
+  }
