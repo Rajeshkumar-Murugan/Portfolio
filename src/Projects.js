@@ -15,7 +15,7 @@ function Projects() {
       <div className="card-group">
         <div className="card">
           <a
-            href="https://priceless-ritchie-d27cd9.netlify.app/"
+            href="https://rajeshkumarbookmyshow.netlify.app"
             target="_blank"
             
           >
@@ -65,7 +65,7 @@ function Projects() {
         </div>
         <div className="card">
           <a
-            href="https://nostalgic-wozniak-8dd50b.netlify.app/"
+            href="https://rajeshkumar3dprinting.netlify.app"
             target="_blank"
             
           >
@@ -114,7 +114,7 @@ function Projects() {
 
         <div className="card">
           <a
-            href="https://thriving-brioche-e4bb68.netlify.app/"
+            href="https://rajeshkumarproject.netlify.app"
             target="_blank"
             
           >
@@ -168,7 +168,7 @@ function Projects() {
         </div>
         <div className="card">
           <a
-            href="https://dazzling-wozniak-795066.netlify.app/"
+            href="https://rajeshkumarpetshop.netlify.app"
             target="_blank"
             
           >
@@ -193,7 +193,7 @@ function Projects() {
 
         <div className="card">
           <a
-            href="https://xenodochial-clarke-aae51c.netlify.app/"
+            href="https://rajeshkumarnews.netlify.app"
             target="_blank"
             
           >
