@@ -54,7 +54,7 @@ function Profile() {
                 </p>
                 <b>Resume: </b>
                 
-                <a href="https://drive.google.com/file/d/1iI4A1rlu2I1O0trlw84S7bYF6Vx_2mJC/view?usp=sharing" download="Rajesh_kumar_Resume.pdf" target="_blank">
+                <a href="https://drive.google.com/file/d/17kwGSgeKHwGUvA5iOOHvhYlxnblScshB/view?usp=sharing" download="Rajesh_kumar_Resume.pdf" target="_blank">
                   Click Here
                 </a>
               </div>
