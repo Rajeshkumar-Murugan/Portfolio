@@ -26,7 +26,7 @@ function Skills() {
               className="transparentbg in-left"
               style={{ animationDuration: "2s" }}
             >
-              Backend (Node Js, Express, MangoDB)
+              Backend (Node Js, Express, MongoDB)
             </div>
             <br />
 
